@@ -60,7 +60,7 @@ public class CalcTest {
 	public void test_01() {assertEquals("Not correct", divide(88.0, 7.0), 13.5614285714, 0.99);}
 	
 	@Test // Ignore
-	public void test_02() {assertEquals("Not correct", add(60.0, 5.0, 7.0), 72.0, 0.09);}
+	public void test_02() {assertEquals("Not correct", add(160.0, 5.0, 7.0), 72.0, 0.09);}
 	
 	@Test // Ignore
 	public void test_03() {assertEquals("Not correct", substract(100.0, 22.0), 78.0, 0.09);}
@@ -78,13 +78,13 @@ public class CalcTest {
 	public void test_07() {assertEquals("Not correct", divide(18.0, 6.0), 3.0, 0.09);}
 	
 	@Test // Ignore
-	public void test_08() {assertEquals("Not correct", multiply(5.0, 12.0), 60.0, 0.09);}
+	public void test_08() {assertEquals("Not correct", multiply(15.0, 12.0), 60.0, 0.09);}
 	
 	@Test  // Ignore
-	public void test_09() {assertEquals("Not correct", add(3.0, 78.0), 81.0, 0.09);}
+	public void test_09() {assertEquals("Not correct", add(13.0, 78.0), 81.0, 0.09);}
 	
 	@Test // Ignore
-	public void test_10() {assertEquals("Not correct", divide(12.0, 3.0), 4.0, 0.09);}
+	public void test_10() {assertEquals("Not correct", divide(112.0, 3.0), 4.0, 0.09);}
 	
 	
 	
